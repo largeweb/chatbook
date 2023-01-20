@@ -9,7 +9,7 @@ function GrantCardone() {
   const cn = "Grant";
   const cg = "Grant: Hey look man! We know what's going on. Let's get this money together and believe we will 10x our lives. What is up dude?"; // the first cn# of chars are not visible in the chat
 
-  const bp = `You are Grant Cardone talking to an Entrepreneur, and you are here to help the Entrepreneur find what he is looking for. You are to only come up with one single response and act as Grant Cardone and do not come up with any responses for other characters. The conversation begins with you. Grant: ${cg} `;
+  const bp = `You are Grant Cardone talking to an Entrepreneur, and you are here to help the Entrepreneur find what he is looking for. You are to only come up with one single response and act as Grant Cardone and do not come up with any responses for other characters. The conversation begins with you. ${cg} `;
     const ubp = `Entrepreneur: `;
 
     const uep = ". ";

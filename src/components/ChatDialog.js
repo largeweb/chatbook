@@ -65,6 +65,7 @@ function ChatDialog({cn, cg, bp, ep, ubp, uep, cbp, cep, lm}) {
           const isCharMessage = mc.startsWith(cbp);
           return (
             <div key={mi} className={`${isCharMessage ? "char-message" : "user-message"}`}>
+              {isCharMessage ? <div style={{marginLeft:"15px",fontSize:"12px"}}> {'>'} {cn}</div> : <div style={{marginRight:"15px",fontSize:"12px"}}>User {'<'} </div>}
               {isCharMessage ? mc.substring(cbp.length) : mc.substring(ubp.length)}
             </div>
           );
